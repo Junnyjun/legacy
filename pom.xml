@@ -15,7 +15,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <kotlin.code.style>official</kotlin.code.style>
         <kotlin.compiler.jvmTarget>11</kotlin.compiler.jvmTarget>
-        <org.springframework-version>5.2.11.RELEASE</org.springframework-version>
+        <org.springframework-version>5.2.20.RELEASE</org.springframework-version>
     </properties>
 
 
