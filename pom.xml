@@ -15,7 +15,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <kotlin.code.style>official</kotlin.code.style>
         <kotlin.compiler.jvmTarget>17</kotlin.compiler.jvmTarget>
-        <org.springframework-version>6.0.7</org.springframework-version>
+        <org.springframework-version>6.1.13</org.springframework-version>
     </properties>
 
 
