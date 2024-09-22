@@ -3,4 +3,9 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <beans>
+        <bean id="sampleConfiguration" class="com.fusion.app.SampleConfiguration" />
+        <bean id="homeController" class="com.fusion.app.controller.HomeController" />
+    </beans>
+
 </beans>
