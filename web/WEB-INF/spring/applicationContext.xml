@@ -5,7 +5,9 @@
 
     <beans>
         <bean id="sampleConfiguration" class="com.fusion.app.SampleConfiguration" />
-        <bean id="homeController" class="com.fusion.app.controller.HomeController" />
+        <bean id="homeController" class="com.fusion.app.controller.HomeController" scope="prototype"/>
+        <bean id="proxyComponent" class="com.fusion.app.controller.ProxyComponent" scope="prototype"/>
+        <bean id="none-proxyComponent" class="com.fusion.app.controller.NoneProxyComponent" scope="prototype"/>
     </beans>
 
 </beans>
