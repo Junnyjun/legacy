@@ -9,12 +9,12 @@ open class BeanPostProcessorSample : BeanPostProcessor {
     private val log =  Logger.getLogger("BeanPostProcessorSample")
 
     override fun postProcessBeforeInitialization(bean: Any, beanName: String): Any? {
-        log.info("BeanPostProcessorSample: postProcessBeforeInitialization")
+        log.info("BEFORE :  bean name: $beanName, bean: $bean")
         return super.postProcessBeforeInitialization(bean, beanName)
     }
 
     override fun postProcessAfterInitialization(bean: Any, beanName: String): Any? {
-        log.info("BeanPostProcessorSample: postProcessAfterInitialization")
+        log.info("AFTER : bean name: $beanName, bean: $bean")
         return super.postProcessAfterInitialization(bean, beanName)
     }
 }
