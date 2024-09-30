@@ -5,13 +5,14 @@
 
     <beans>
         <bean id="sampleConfiguration" class="com.fusion.app.SampleConfiguration" />
-        <bean id="homeController" class="com.fusion.app.controller.HomeController" scope="prototype"/>
+        <bean id="homeController" class="com.fusion.app.controller.HomeController" />
         <bean id="proxyComponent" class="com.fusion.app.controller.ProxyComponent" scope="prototype">
             <aop:scoped-proxy proxy-target-class="true"/>
         </bean>
         <bean id="none-proxyComponent" class="com.fusion.app.controller.NoneProxyComponent" scope="prototype">
             <aop:scoped-proxy proxy-target-class="false"/>
         </bean>
+        <bean id="beanPostProcessor" class="com.fusion.app.controller.BeanPostProcessorSample" />
     </beans>
 
 </beans>

@@ -20,7 +20,7 @@ class IocContainerTest {
     @Test
     fun test() {
         applicationContext.registerBean<Any>("test")
-        beanFactory.getBean("HomeController")
+        beanFactory.getBean("homeController")
     }
 }
 
